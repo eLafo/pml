@@ -1,4 +1,18 @@
-# Install requirements
+# Using Jupyter
+
+Just run
+
+```bash
+docker-compose up -d
+```
+
+and then look for the URL with the token in the logs:
+
+```bash
+docker-compose logs
+```
+
+# Using an IDE
 
 1. Install [pyenv](https://github.com/pyenv/pyenv) and [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
 
